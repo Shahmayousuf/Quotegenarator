@@ -1,0 +1,35 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .App{
+     
+    background-color: rgb(20, 90, 93);
+    height: 100vh;
+    display: grid;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .content{
+    background-color: rgba(61, 67, 69, 0.68);
+    width: 400px;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    gap: 10px;
+  }
+  .btnquote button
+  {
+    border-radius: 5px;
+    background-color: rgb(235, 218, 218);
+    border-color: bisque;
+     font-weight: bold;
+    margin: 30px;
+    padding: 10px;
+  }
